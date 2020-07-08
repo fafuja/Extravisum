@@ -1,0 +1,32 @@
+
+# DO NOT REMOVE THIS LINE AND THE LINES BELOW SSL_REDIRECT:extravisum.com
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP_HOST} (www\.)?extravisum.com
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+# DO NOT REMOVE THIS LINE AND THE LINES ABOVE SSL_REDIRECT:extravisum.comErrorDocument 404 “<H1>Page not found</H1>”
+
+ErrorDocument 404 https://extravisum.com/
+
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^([^\.]+)$ $1.php [NC,L]
+
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !/checkout/complete.php
+RewriteCond %{REQUEST_URI} !/checkout/update.php
+RewriteRule ^checkout/(.*)$ /checkout [R=301,NC,L]
+
+
+RewriteEngine On
+RewriteCond %{SCRIPT_FILENAME} !-d
+RewriteCond %{SCRIPT_FILENAME} !-f
+RewriteRule   ^user/(.+)$   ./profile.php?u=$1   [L]
+
+RewriteEngine On
+RewriteCond %{REQUEST_URI} !/profile/editemail.php
+RewriteCond %{REQUEST_URI} !/profile/products.php
+RewriteRule ^profile/(.*)$ ./index.php [R=301,NC,L]
+
+
+
