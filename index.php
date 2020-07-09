@@ -78,9 +78,9 @@
 		</div>
 		<?php 
 		    $servername = "localhost";
-		    $username = "u791180568_iFKEt";
-		    $password = "QIGsPgksxU"; 
-		    $db = "u791180568_DIta6";
+		    $username = "";
+		    $password = ""; 
+		    $db = "";
 		    $canpost = false;
 		    
 		    $conn = new mysqli($servername, $username, $password, $db);
