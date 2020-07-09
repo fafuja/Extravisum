@@ -18,8 +18,7 @@ $status = json_decode(file_get_contents('https://api.mcsrvstat.us/2/extravisum.c
 <html>
 <head>
 	<title>Extravisum</title>
-	<meta name="description" content="MyServer is a revolutionary Minecraft server. You can join with the IP 'play.myserver.net'.">
-	<meta name="keywords" content="MyServer, MyServer.com, Minecraft Server, Minecraft, Fun, Play, Portal, Website, Official">
+
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta charset="utf-8">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
