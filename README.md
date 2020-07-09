@@ -8,4 +8,7 @@ This is a project I made for a friend of mine. He wanted a website for his minec
 I used PagSeguro API in this project to handle payment requests. (https://dev.pagseguro.uol.com.br/docs)
 
 ## Screenshots
-![Scrn 1](https://prnt.sc/tef5xm)
+![Scrn 1](https://i.imgur.com/zVooGFQ.png)
+![Scrn 2](https://i.imgur.com/9iep8Kw.png)
+![Scrn 3](https://i.imgur.com/mt4k5vQ.png)
+![Scrn 4](https://i.imgur.com/U1RFGFw.png)
