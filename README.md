@@ -12,3 +12,4 @@ I used PagSeguro API in this project to handle payment requests. (https://dev.pa
 ![Scrn 2](https://i.imgur.com/9iep8Kw.png)
 ![Scrn 3](https://i.imgur.com/mt4k5vQ.png)
 ![Scrn 4](https://i.imgur.com/U1RFGFw.png)
+![Scrn 5](https://i.imgur.com/BFGrhds.png)
