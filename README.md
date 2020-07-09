@@ -6,3 +6,6 @@ This is a project I made for a friend of mine. He wanted a website for his minec
 
 ## PagSeguro API
 I used PagSeguro API in this project to handle payment requests. (https://dev.pagseguro.uol.com.br/docs)
+
+## Screenshots
+[Scrn 1](https://prnt.sc/tef5xm)
